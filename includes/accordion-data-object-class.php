@@ -1,5 +1,5 @@
 <?php
-require_once(plugin_dir_path(__FILE__) . 'accordion-item.php');
+require_once(plugin_dir_path(__FILE__) . 'accordion-item-class.php');
 
 class Accordion_Data_Object {
     public $accordion_items;
