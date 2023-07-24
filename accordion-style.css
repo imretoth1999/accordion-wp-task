@@ -1,0 +1,95 @@
+/*
+Override bootstrap styles
+*/
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+  
+.accordion-item {
+    font-family: 'Times New Roman', Times, serif;
+    border: 0 !important;
+}
+
+.accordion-body {
+    font-size:larger !important; 
+    opacity: 50%;
+}
+
+.accordion-button {
+    color:black !important;
+    font-size: larger !important;
+}
+
+/*
+Grey color
+*/
+
+.accordion-item.grey {
+    background-color: 	#e5e5e6 !important;
+}
+
+.accordion-button.grey {
+    background-color: 	#e5e5e6 !important;
+    color:black !important;
+}
+
+/*
+Green color
+*/
+
+.accordion-item.green {
+    background-color: 	#9fdba9 !important;
+}
+
+.accordion-button.green {
+    background-color: 	#9fdba9!important;
+    color:black !important;
+}
+
+/*
+Dark color
+*/
+
+.accordion-item.dark {
+    background-color: 	black !important;
+    color:white !important;
+}
+
+.accordion-button.dark {
+    background-color: 	black !important;
+    color:white !important;
+}
+
+.accordion-button.dark::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-button.dark:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+}
+
+/*
+Blue color
+*/
+
+.accordion-item.blue {
+    background-color: 	#6cbfe9 !important;
+}
+
+.accordion-button.blue {
+    background-color: 	#6cbfe9 !important;
+    color:black !important;
+}
+
+/*
+Plus and minus animation
+*/
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg) !important;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+}
